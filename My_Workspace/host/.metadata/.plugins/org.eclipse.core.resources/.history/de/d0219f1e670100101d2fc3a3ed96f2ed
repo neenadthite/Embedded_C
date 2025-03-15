@@ -1,0 +1,17 @@
+/*
+ * main.c
+ *
+ *  Created on: Mar 15, 2025
+ *      Author: 141584
+ */
+int a;
+
+int main()
+{
+	a = 25;
+	{
+		int my_var;
+		my_var=45;
+	}
+
+}
