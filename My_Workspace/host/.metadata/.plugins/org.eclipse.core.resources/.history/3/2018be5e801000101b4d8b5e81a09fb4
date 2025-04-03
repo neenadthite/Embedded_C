@@ -1,0 +1,20 @@
+/*
+ * main.c
+ *
+ *  Created on: Apr 3, 2025
+ *      Author: 141584
+ */
+#include <stdio.h>
+
+int main(void)
+{
+	double charge, chargeE;
+	printf("Enter the charge: ");
+	scanf("%lf",&charge);
+
+	printf("Enter the charge of electron: ");
+	scanf("%le",&chargeE);
+
+	electrons = (charge/chargeE)* -1;
+	printf("");
+}

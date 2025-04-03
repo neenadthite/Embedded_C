@@ -1,0 +1,29 @@
+/*
+ * main_new.c
+ *
+ *  Created on: Apr 3, 2025
+ *      Author: 141584
+ */
+#include <stdio.h>
+
+int main()
+{
+	float number1, number2, number3;
+	float average;
+
+	printf("Enter three numbers: ");
+	scanf("%f %f %f",&number1,&number2,&number3);
+
+	average = (number1 + number2 + number3)/3;
+	printf("\nAverage is : %f\n",average);
+
+	printf("Press enter key to exit the application \n");
+	while(getchar()!='\n')
+	{
+
+	}
+	getchar();
+}
+
+
+
